@@ -1,0 +1,66 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"
+    </head>
+<body>
+  <main id="main">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
+   
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label><br>
+      <input required type="text" id="name" placeholder="Enter your name"></input><br><br>
+      
+      <label for="email" id="email-label">Email</label><br>
+      <input required type="email" id="email" placeholder="Enter your email"></input><br><br>
+    
+      <label for="number" id="number-label">Age (optional)</label><br>
+      <input type="number" id="number" min="1" max="150" placeholder="Age"></input><br><br>
+  
+      <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label><br>
+      <select id="dropdown" required>
+        <option value="none" selected disabled>Select current role</option>
+        <option value="student">Student</option>
+        <option value="student">Full Time Job</option>
+        <option value="student">Full Time Learner</option>
+        <option value="student">Prefer not to say</option>
+        <option value="student">Other</option>
+      </select><br><br>
+  
+    <label for="radio">Would you recommend freeCodeCamp to a friend?</label><br>
+      <input type="radio" name="recommend" value="definitely"> Definitely</input><br>
+      <input type="radio" name="recommend" value="maybe"> Maybe</input><br>
+      <input type="radio" name="recommend" value="not_sure"> Not sure</input><br><br>
+      
+    <label for="checkbox">What is your favorite feature of freeCodeCamp?</label><br>
+      <input type="checkbox" value="front-end_projects"> Front-end Projects</input><br>
+      <input type="checkbox" value="back-end_projects"> Back-end Projects</input><br>
+      <input type="checkbox" value="data_visualization"> Data Visualization</input><br>
+      <input type="checkbox" value="challenges"> Challenges</input><br>
+      <input type="checkbox" value="open_source_community"> Open Source Community</input><br>
+      <input type="checkbox" value="gitter_help_rooms"> Gitter help rooms</input><br>
+      <input type="checkbox" value="videos"> Videos</input><br>
+      <input type="checkbox" value="city_meetups"> City Meetups</input><br>
+      <input type="checkbox" value="wiki"> Wiki</input><br>
+      <input type="checkbox" value="forum"> Forum</input><br>
+      <input type="checkbox" value="additional_courses"> Additional Courses</input><br><br>
+
+    <label for="comments">Any comments or suggestions?</label><br>
+      <textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea><br>
+
+<input type="submit" id="submit"></input>
+    </form>
+    
+  </main>
+</body>
+</html>
